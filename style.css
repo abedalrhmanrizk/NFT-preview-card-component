@@ -1,0 +1,96 @@
+body {
+  font-family: 'Outfit', sans-serif;
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  background: var(--very-dark-blue-main-bg);
+}
+
+main {
+  max-width: 350px;
+  border-radius: 15px;
+  background: var(--very-dark-blue-card-bg);
+  box-shadow: 0px 25px 50px 0px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  margin-inline: 24px;
+}
+
+.equilibrium {
+  max-width: 100%;
+  margin-bottom: 24px;
+  border-radius: 8px;
+  position: relative;
+}
+
+h1 {
+  color: var(--white);
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  transition: all 0.3s;
+}
+
+h1:hover,
+.avatar span:hover {
+  color: var(--cyan, #00fff8);
+  cursor: pointer;
+}
+
+main p {
+  color: var(--soft-blue);
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.44444;
+  margin-bottom: 24px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--very-dark-blue-line);
+  margin-bottom: 16px;
+}
+
+.icons div {
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+  gap: 7.7px;
+}
+
+.icons div:first-child {
+  color: var(--cyan);
+  font-weight: 600;
+}
+
+.icons div:last-child {
+  color: var(--soft-blue);
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.avatar img {
+  height: 33px;
+  width: 33px;
+  border-radius: 50%;
+  border: 1px solid var(--white);
+}
+
+.avatar span {
+  color: var(--white);
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  transition: all 0.3s;
+}
+
+.avatar p {
+  margin-bottom: 0;
+}
